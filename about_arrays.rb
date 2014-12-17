@@ -80,6 +80,6 @@ class AboutArrays < Neo::Koan
     assert_equal = shifted_value
     assert_equal = array
   end
-
 end
+
 
