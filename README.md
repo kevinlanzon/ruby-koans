@@ -1,4 +1,4 @@
-ruby_koans
+Ruby Koans
 ==========
 
 My attempts at Ruby Koans
