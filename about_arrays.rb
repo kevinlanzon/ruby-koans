@@ -80,7 +80,6 @@ class AboutArrays < Neo::Koan
     assert_equal :first, shifted_value
     assert_equal [1, 2], array
   end
-
 end
 
 
