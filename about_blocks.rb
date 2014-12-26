@@ -92,5 +92,4 @@ class AboutBlocks < Neo::Koan
     add_one = lambda { |n| n + 1 }
     assert_equal __, method_with_explicit_block(&add_one)
   end
-
 end
