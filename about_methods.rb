@@ -148,5 +148,4 @@ class AboutMethods < Neo::Koan
       rover.tail
     end
   end
-  
 end
