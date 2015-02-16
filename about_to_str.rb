@@ -18,7 +18,6 @@ class AboutToStr < Neo::Koan
       File.exist?(CanNotBeTreatedAsString.new)
     end
   end
-
   # ------------------------------------------------------------------
 
   class CanBeTreatedAsString
