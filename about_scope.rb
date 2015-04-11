@@ -55,7 +55,7 @@ class AboutScope < Neo::Koan
   PI = 3.1416
 
   def test_constants_are_defined_with_an_initial_uppercase_letter
-    assert_equal __, PI
+    assert_equal 3.1416, PI
   end
 
   # ------------------------------------------------------------------
@@ -63,8 +63,8 @@ class AboutScope < Neo::Koan
   MyString = ::String
 
   def test_class_names_are_just_constants
-    assert_equal __, MyString == ::String
-    assert_equal __, MyString == "HI".class
+    assert_equal true, MyString == ::String
+    assert_equal true, MyString == "HI".class
   end
 
   def test_constants_can_be_looked_up_explicitly
